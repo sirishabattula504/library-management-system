@@ -231,7 +231,7 @@ function IssueBook() {
                       <img
                         src={book.image}
                         alt={book.title}
-                        className="w-full h-64 object-cover"
+                       className="w-full h-64 object-contain bg-gray-100"
                       />
                     ) : (
                       <div className="w-full h-64 bg-gray-200 flex items-center justify-center text-6xl">

@@ -36,6 +36,8 @@ const getAllBorrowTransactions = async () => {
       bt.book_id,
       b.title,
       b.author,
+      b.image,
+
       bt.issue_date,
       bt.due_date,
       bt.return_date,

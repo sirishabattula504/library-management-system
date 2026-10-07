@@ -12,7 +12,7 @@ function BookCard({ book, onViewDetails }) {
           event.currentTarget.onerror = null;
           event.currentTarget.src = fallbackImage;
         }}
-        className="w-full h-72 object-cover"
+        className="w-full h-72 object-contain bg-gray-100"
       />
 
       <div className="p-5">
