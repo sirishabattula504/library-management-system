@@ -216,6 +216,7 @@ function BookCatalog() {
         !bookForm.category.trim()
       ) {
         setFormError(
+          
           "Title, author, ISBN and category are required."
         );
         return;
